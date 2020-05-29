@@ -3,13 +3,13 @@ Battery Manager is an open source program used to maintain your battery life cyc
 
 ## Instructions (Non Developers)
 
-All you have to do dear user is:
-1 / - Loading the warehouse by pressing the download button.
-2 / - Enter the dist file, you will find the program click on it twice.
+All you have to do dear user is:<br />
+1 / - Loading the warehouse by pressing the download button.<br />
+2 / - Enter the dist file, you will find the program click on it twice.<br />
 Thus you have finished running the program.
-
-Note:
-The program runs in the background and does not have an interface, if you want to stop it all you have to do is go to the task manager and stop it from there.
+<br /><br />
+Note:<br />
+The program runs in the background and does not have an interface, if you want to stop it all you have to do is go to the task manager and stop it from there.<br />
 If you want to change the audio clips, all you have to do is replace the plugin.mp3 and unplug.mp3 files with any other audio files you want, provided that they are in a format with the same name, location and format.
 
 ## Instructions (For Developers)
