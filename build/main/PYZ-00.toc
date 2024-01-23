@@ -1,6 +1,10 @@
 ('C:\\Users\\aniso\\OneDrive\\Desktop\\Source '
  'Codes\\Battery-Manager\\build\\main\\PYZ-00.pyz',
- [('__future__',
+ [('PyQt5',
+   'C:\\Users\\aniso\\OneDrive\\Desktop\\Source '
+   'Codes\\Battery-Manager\\venv\\Lib\\site-packages\\PyQt5\\__init__.py',
+   'PYMODULE'),
+  ('__future__',
    'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__future__.py',
    'PYMODULE'),
   ('_compat_pickle',
@@ -14,6 +18,10 @@
    'PYMODULE'),
   ('_pydecimal',
    'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'C:\\Users\\aniso\\OneDrive\\Desktop\\Source '
+   'Codes\\Battery-Manager\\venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
    'PYMODULE'),
   ('_strptime',
    'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_strptime.py',
@@ -261,6 +269,9 @@
   ('pickle',
    'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pickle.py',
    'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pkgutil.py',
+   'PYMODULE'),
   ('platform',
    'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\platform.py',
    'PYMODULE'),
@@ -382,4 +393,7 @@
    'PYMODULE'),
   ('zipfile',
    'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\aniso\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipimport.py',
    'PYMODULE')])
