@@ -18,7 +18,7 @@ def setIsTimeForReward(val):
 
 
 def main():
-    print("isTimeForReward", getIsTimeForReward())
+
     threading.Timer(5.0, main).start()
     battery = psutil.sensors_battery()
     plugged = battery.power_plugged
