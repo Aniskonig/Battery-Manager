@@ -18,13 +18,17 @@ def setIsTimeForReward(val):
 
 
 def main():
-
     threading.Timer(5.0, main).start()
     battery = psutil.sensors_battery()
     plugged = battery.power_plugged
     percent = str(battery.percent)
 
-    if (int(percent) >= 78) and plugged:
+    if plugged == False:
+        plugged = "Not Plugged In"
+    else:
+        plugged = "Plugged In"
+
+    if (int(percent) >= 78) and plugged == "Plugged In":
         playsound('unplug.mp3')
         if not getIsTimeForReward():
             setIsTimeForReward(True)
@@ -35,7 +39,7 @@ def main():
             tkinter.messagebox.showinfo("Info", "Please unplug your laptop charger")
             root.destroy()
 
-    if (int(percent) <= 32) and not plugged:
+    if (int(percent) <= 35) and plugged != "Plugged In":
         playsound('plugin.mp3')
 
         if not getIsTimeForReward():
